@@ -13,11 +13,40 @@
 
 .tabla__heading {
   background-color: lightgrey;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 2px solid #000;
 }
 
 .tabla__heading td {
   font-size: 1.4rem;
+  padding: 0.3rem;
   font-weight: bold;
+  background-color: #fff;
+}
+
+.tabla__heading td:not(:last-child) {
   padding-right: 1.5rem;
+}
+
+.tabla__heading tr td {
+  background-color: lightyellow;
+  padding: 0.3rem;
+}
+
+.hora {
+  font-size: 1rem;
+  text-align: center;
+  margin: 0 auto;
+  border: 1px solid #000;
+  -webkit-box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+  width: 30%;
+}
+
+.hora__utc {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  font-style: italic;
 }
 /*# sourceMappingURL=main.css.map */

@@ -10,7 +10,8 @@
       "Pais": "España",
       "Estudios": "Universidad",
       "Sexo": "Hombre",
-      "Grupo Sanguíneo": "A"
+      "Grupo Sanguíneo": "A",
+      "Hora Local": ""
     },
     {
       "id": 2,
@@ -22,7 +23,8 @@
       "Pais": "Francia",
       "Estudios": "Instituto",
       "Sexo": "Mujer",
-      "Grupo Sanguíneo": "B"
+      "Grupo Sanguíneo": "B",
+      "Hora Local": ""
     },
     {
       "id": 3,
@@ -34,7 +36,8 @@
       "Pais": "Colombia",
       "Estudios": "",
       "Sexo": "",
-      "Grupo Sanguíneo": "AB"
+      "Grupo Sanguíneo": "AB",
+      "Hora Local": ""
     },
     {
       "id": 4,
@@ -46,7 +49,8 @@
       "Pais": "Japón",
       "Estudios": "",
       "Sexo": "",
-      "Grupo Sanguíneo": "0"
+      "Grupo Sanguíneo": "O",
+      "Hora Local": ""
     },
     {
       "id": 5,
@@ -58,7 +62,8 @@
       "Pais": "",
       "Estudios": "",
       "Sexo": "",
-      "Grupo Sanguíneo": ""
+      "Grupo Sanguíneo": "",
+      "Hora Local": ""
     }
   ]
 }
