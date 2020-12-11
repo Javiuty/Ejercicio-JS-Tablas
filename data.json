@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "Nombre": "Andrés",
+      "Apellido": "Gómez",
+      "Edad": 10,
+      "Altura": 180,
+      "Peso": 75,
+      "Pais": "España",
+      "Estudios": "Universidad",
+      "Sexo": "Hombre",
+      "Grupo Sanguíneo": "A"
+    },
+    {
+      "id": 2,
+      "Nombre": "María",
+      "Apellido": "Martínez",
+      "Edad": 40,
+      "Altura": 165,
+      "Peso": 55,
+      "Pais": "Francia",
+      "Estudios": "Instituto",
+      "Sexo": "Mujer",
+      "Grupo Sanguíneo": "B"
+    },
+    {
+      "id": 3,
+      "Nombre": "Juan",
+      "Apellido": "Palacios",
+      "Edad": 85,
+      "Altura": 160,
+      "Peso": 70,
+      "Pais": "Colombia",
+      "Estudios": "",
+      "Sexo": "",
+      "Grupo Sanguíneo": "AB"
+    },
+    {
+      "id": 4,
+      "Nombre": "Marta",
+      "Apellido": "Domingo",
+      "Edad": 25,
+      "Altura": 180,
+      "Peso": 70,
+      "Pais": "Japón",
+      "Estudios": "",
+      "Sexo": "",
+      "Grupo Sanguíneo": "0"
+    },
+    {
+      "id": 5,
+      "Nombre": "Fausta",
+      "Apellido": "Sanz",
+      "Edad": 55,
+      "Altura": 155,
+      "Peso": 45,
+      "Pais": "",
+      "Estudios": "",
+      "Sexo": "",
+      "Grupo Sanguíneo": ""
+    }
+  ]
+}

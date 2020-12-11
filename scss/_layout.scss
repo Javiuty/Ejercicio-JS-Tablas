@@ -1,0 +1,13 @@
+.tabla {
+  margin: 4rem auto;
+
+  &__heading {
+    background-color: lightgrey;
+
+    td {
+      font-size: 1.4rem;
+      font-weight: bold;
+      padding-right: 1.5rem;
+    }
+  }
+}

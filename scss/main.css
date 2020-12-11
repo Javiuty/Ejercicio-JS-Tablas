@@ -1,0 +1,23 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.tabla {
+  margin: 4rem auto;
+}
+
+.tabla__heading {
+  background-color: lightgrey;
+}
+
+.tabla__heading td {
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding-right: 1.5rem;
+}
+/*# sourceMappingURL=main.css.map */
