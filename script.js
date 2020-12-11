@@ -2,6 +2,7 @@
 const tabla = document.querySelector(".tabla");
 const tablaHeading = document.querySelector(".tabla__heading");
 const tablaRow = document.querySelector(".tabla__row");
+const horaUTC = document.querySelector(".hora__utc");
 
 // Funciones
 function callingData() {
@@ -13,12 +14,14 @@ function callingData() {
 callingData();
 
 function renderingHTML(data) {
+  // Rendering Heading TAble
   for (let prop in data[0]) {
     const td = document.createElement("td");
     td.textContent = prop;
     tablaHeading.appendChild(td);
   }
 
+  // Rendering DAta
   for (let i = 0; i < data.length; i++) {
     const tr = document.createElement("tr");
 
@@ -29,4 +32,8 @@ function renderingHTML(data) {
       tablaHeading.appendChild(tr);
     }
   }
+
+  // Rendering Names and Countries
 }
+
+horaUTC.textContent = moment.utc(Date.now()).format("hh:mm");

@@ -25,16 +25,23 @@
       }
     }
   }
+
+  &__h {
+  }
 }
 
 // Section de hora
 .hora {
   font-size: 1rem;
-  text-align: center;
   margin: 0 auto;
   border: 1px solid #000;
   box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.75);
   width: 30%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   &__utc {
     padding: 0.5rem;
